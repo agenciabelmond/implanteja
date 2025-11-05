@@ -37,10 +37,16 @@ export function TestimonialsCarousel() {
               className="bg-[#2DC653] hover:bg-[#25a644] text-white font-bold px-12 py-7 text-xl rounded-full shadow-xl hover:scale-105 transition-all"
               asChild
             >
-              <a href={whatsappLink} target="_blank" className="flex items-center">
-                IMPLANTE NO BOLETO
-                <MessageCircle className="ml-3 w-7 h-7 text-white" />
-              </a>
+            <a href="https://wa.me/+553131917600?text=%5BN%C3%83O%20APAGAR%5DOl%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank" className="flex items-center">
+              IMPLANTE NO BOLETO
+              <Image
+                src="whatsapp (2).png"
+                width={32}
+                height={32}
+                alt="WhatsApp"
+                className="ml-4"
+              />
+            </a>
             </Button>
           </div>
 
