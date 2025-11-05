@@ -4,7 +4,7 @@ const statsData = [
   {
     icon: CreditCard,
     title: "Parcele Fácil",
-    text: "Parcelamos seu implante dentário no Boleto ou Cartão de Crédito."
+    text: "Parcelamos seu tratamento no Boleto ou Cartão de Crédito."
   },
   {
     icon: MapPin,

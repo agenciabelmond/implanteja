@@ -38,7 +38,7 @@ export function TestimonialsCarousel() {
               asChild
             >
             <a href="https://wa.me/+553131917600?text=%5BN%C3%83O%20APAGAR%5DOl%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank" className="flex items-center">
-              IMPLANTE NO BOLETO
+              TRATAMENTO NO BOLETO
               <Image
                 src="whatsapp (2).png"
                 width={32}
@@ -58,7 +58,7 @@ export function TestimonialsCarousel() {
             </div>
             <div className="flex items-center gap-4">
               <CreditCard className="w-10 h-10 text-white" />
-              Parcelas em até __X
+              Entrada facilitadas + Parcelas
             </div>
             <div className="flex items-center gap-4">
               <Building className="w-10 h-10 text-white" />
