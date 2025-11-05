@@ -7,12 +7,12 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Dentinalis- Implantes Dentários em 72h",
+  title: "Implante Já - Belo Horizonte",
   description:
-    "Especialistas em Implantes Dentários. Tenha dentes fixos em 72h com a técnica All-On-4. Mais de 15 anos de experiência em Criciúma - SC.",
+    "Especialistas em Implantes Dentários em Belo Horizonte - MG.",
   generator: "Belmond",
   icons: {
-    icon: "icone.jpeg", // aqui você indica o favicon
+    icon: "iconeimplante.png", // aqui você indica o favicon
   },
 };
 
