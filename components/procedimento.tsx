@@ -29,7 +29,7 @@ export function LinhaTempo() {
                   <div className="w-14 h-14 mx-auto rounded-full bg-[#001F47] text-white flex items-center justify-center text-lg font-bold shadow-lg">
                     01
                   </div>
-                  <h3 className="font-bold text-[#001F47] text-lg tracking-wide">CONSULTA GRATUITA</h3>
+                  <h3 className="font-bold text-[#001F47] text-lg tracking-wide">CONSULTA COM ESPECIALISTA</h3>
                   <p className="text-gray-600 text-sm leading-relaxed">
                     Avaliação completa para entender suas necessidades e construir confiança.
                   </p>
