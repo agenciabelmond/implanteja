@@ -6,7 +6,7 @@ import Image from "next/image"
 
 export function TestimonialsCarousel() {
   const whatsappLink =
-    "https://wa.me/+553131917600?text=%5BN%C3%83O%20APAGAR%5DOl%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
+    "https://api.whatsapp.com/send?phone=553131917600&text=%5BN%C3%83O%20APAGAR%5DOl%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.%0A%0A"
 
   return (
     <section id="pagamento" className="py-20 bg-gradient-to-b from-[#F6F9FF] from-5% via-[#0A295B] via-25% to-[#001F47] to-100%">
@@ -37,7 +37,7 @@ export function TestimonialsCarousel() {
               className="bg-[#2DC653] hover:bg-[#25a644] text-white font-bold px-12 py-7 text-xl rounded-full shadow-xl hover:scale-105 transition-all"
               asChild
             >
-            <a href="https://wa.me/+553131917600?text=%5BN%C3%83O%20APAGAR%5DOl%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank" className="flex items-center">
+            <a href="https://api.whatsapp.com/send?phone=553131917600&text=%5BN%C3%83O%20APAGAR%5DOl%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.%0A%0A" target="_blank" className="flex items-center">
               TRATAMENTO NO BOLETO
               <Image
                 src="whatsapp (2).png"

@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 
 export function ContactSection() {
     const whatsappLink =
-    "https://wa.me/+553131917600?text=%5BN%C3%83O%20APAGAR%5DOl%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
+    "https://api.whatsapp.com/send?phone=553131917600&text=%5BN%C3%83O%20APAGAR%5DOl%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.%0A%0A"
 
   return (
     <section id="localizacao" className="py-20 bg-gradient-to-b from-white to-gray-50">
@@ -78,7 +78,7 @@ export function ContactSection() {
                   <div className="flex-1">
                     <h3 className="font-bold text-xl text-[#004B8C] mb-3">Contato</h3>
                     <a
-                      href="https://wa.me/+553131917600?text=%5BN%C3%83O%20APAGAR%5DOl%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
+                      href="https://api.whatsapp.com/send?phone=553131917600&text=%5BN%C3%83O%20APAGAR%5DOl%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.%0A%0A"
                       className="text-gray-700 hover:text-[#2DC8D2] transition-colors text-lg"
                     >
                       (31) 3191-7600
@@ -93,7 +93,7 @@ export function ContactSection() {
                 size="lg"
                 className="w-full bg-[#2CC84D] hover:bg-[#2CC84D]/90 text-white font-semibold text-lg py-6 rounded-xl shadow-lg hover:shadow-xl transition-all"
               >
-                <a href="https://wa.me/+553131917600?text=%5BN%C3%83O%20APAGAR%5DOl%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.">Agendar Consulta</a>
+                <a href="https://api.whatsapp.com/send?phone=553131917600&text=%5BN%C3%83O%20APAGAR%5DOl%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.%0A%0A">Agendar Consulta</a>
               </Button>
             </div>
           </div>

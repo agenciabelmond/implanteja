@@ -9,7 +9,7 @@ export function WhatsAppFloatButton() {
     // Número do WhatsApp - ajuste conforme necessário
     const phoneNumber = "554899790532" // Formato: código do país + DDD + número
     const message = encodeURIComponent("Olá! Vim pelo site e gostaria de mais informações.")
-    window.open(`https://wa.me/+553131917600?text=%5BN%C3%83O%20APAGAR%5DOl%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.`, "_blank")
+    window.open(`https://api.whatsapp.com/send?phone=553131917600&text=%5BN%C3%83O%20APAGAR%5DOl%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.%0A%0A`, "_blank")
   }
 
   return (
