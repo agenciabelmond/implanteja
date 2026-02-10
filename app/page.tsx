@@ -8,7 +8,8 @@ import { BenefitsSection } from "@/components/benefits-section"
 import { VideoSection } from "@/components/video-section"
 import { ContactSection } from "@/components/contact-section"
 import { WhatsAppFloatButton } from "@/components/whatsapp-float-button"
-
+import { BeforeAfterSection } from "@/components/antesedepois"
+import { GoogleReviewsSection } from "@/components/GoogleReviewsSection"
 export default function Home() {
   return (
     <main className="min-h-screen">
@@ -17,8 +18,10 @@ export default function Home() {
       <StatsBar />
       <LinhaTempo />
       <TestimonialsCarousel />
+      <BeforeAfterSection />
       <AboutSection />
       <BenefitsSection />
+      <GoogleReviewsSection />
       <VideoSection />
       <ContactSection />
       <WhatsAppFloatButton />

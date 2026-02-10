@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { MessageCircle } from "lucide-react"
+import { Star } from "lucide-react"
 import Image from "next/image"
 
 export function HeroSection() {
@@ -16,28 +16,52 @@ export function HeroSection() {
           
           {/* Texto */}
           <div className="space-y-8 z-10 text-gray-900">
+
+            {/* Prova social */}
+            <div className="flex flex-wrap items-center gap-3 text-white/90">
+              <div className="flex items-center gap-1 text-yellow-400">
+                <Star className="h-4 w-4 fill-yellow-400" />
+                <Star className="h-4 w-4 fill-yellow-400" />
+                <Star className="h-4 w-4 fill-yellow-400" />
+                <Star className="h-4 w-4 fill-yellow-400" />
+                <Star className="h-4 w-4 fill-yellow-400" />
+              </div>
+              <span className="text-sm md:text-base">
+                <strong>4,7 no Google</strong> • Mais de{" "}
+                <strong>1.000 sorrisos</strong> transformados
+              </span>
+            </div>
+
             <h1 className="text-5xl lg:text-6xl text-white font-bold leading-tight">
               Implantes Dentários de Qualidade em BH
             </h1>
 
             <p className="text-xl text-white leading-relaxed">
-              Resultados rápidos: dentes fixos e com máximo conforto. Recupere sua autoestima conosco!
+              Dentes fixos, sem dor desnecessária e com acompanhamento especializado do início ao fim.
+              <br />
+              Recupere sua autoestima e sua confiança para sorrir novamente.
             </p>
 
-          <Button
-            size="lg"
-            className="bg-[#2CC84D] hover:bg-[#25b043] text-white font-semibold px-10 py-7 text-lg rounded-full shadow-lg hover:shadow-xl transition-all animate-[pulse-scale_0.9s_ease-in-out_infinite]"
-            asChild
-          >
-            <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="flex items-center">
-              <img
-                src="whatsapp (2).png"
-                alt="WhatsApp"
-                className="mr-2 h-10 w-10"
-              />
-              Agendar minha Avaliação
-            </a>
-          </Button>
+            <Button
+              size="lg"
+              className="bg-[#2CC84D] hover:bg-[#25b043] text-white font-semibold px-10 py-7 text-lg rounded-full shadow-lg hover:shadow-xl transition-all animate-[pulse-scale_0.9s_ease-in-out_infinite]"
+              asChild
+            >
+              <a
+                href={whatsappLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center"
+              >
+                <img
+                  src="whatsapp (2).png"
+                  alt="WhatsApp"
+                  className="mr-2 h-10 w-10"
+                />
+                Falar com especialista agora
+              </a>
+            </Button>
+
           </div>
 
           {/* Imagem */}
