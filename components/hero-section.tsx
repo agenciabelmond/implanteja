@@ -18,19 +18,34 @@ export function HeroSection() {
           <div className="space-y-8 z-10 text-gray-900">
 
             {/* Prova social */}
-            <div className="flex flex-wrap items-center gap-3 text-white/90">
-              <div className="flex items-center gap-1 text-yellow-400">
-                <Star className="h-4 w-4 fill-yellow-400" />
-                <Star className="h-4 w-4 fill-yellow-400" />
-                <Star className="h-4 w-4 fill-yellow-400" />
-                <Star className="h-4 w-4 fill-yellow-400" />
-                <Star className="h-4 w-4 fill-yellow-400" />
-              </div>
-              <span className="text-sm md:text-base">
-                <strong>4,7 no Google</strong> • Mais de{" "}
-                <strong>1.000 sorrisos</strong> transformados
-              </span>
+         
+        <div className="flex flex-wrap items-center gap-3 text-white/90">
+          <div className="flex items-center gap-2">
+            <Image
+              src="/googlelogo.png"
+              alt="Google"
+              width={24}
+              height={24}
+              className="h-6 w-auto"
+            />
+
+            <div className="flex items-center gap-1 text-yellow-400">
+              <Star className="h-[18px] w-[18px] fill-yellow-400" />
+              <Star className="h-[18px] w-[18px] fill-yellow-400" />
+              <Star className="h-[18px] w-[18px] fill-yellow-400" />
+              <Star className="h-[18px] w-[18px] fill-yellow-400" />
+              <Star className="h-[18px] w-[18px] fill-yellow-400" />
             </div>
+          </div>
+
+          <span className="text-base md:text-lg">
+            <strong className="text-lg md:text-xl font-semibold text-yellow-400">
+              4,7 no Google
+            </strong>{" "}
+            • Mais de <strong>1.000 sorrisos</strong> transformados
+          </span>
+        </div>
+
 
             <h1 className="text-5xl lg:text-6xl text-white font-bold leading-tight">
               Implantes Dentários de Qualidade em BH
